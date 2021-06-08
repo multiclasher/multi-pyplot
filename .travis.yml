@@ -9,6 +9,7 @@ jobs:
       before_install:
         - sudo rm /usr/bin/python
         - sudo ln -s /usr/bin/python3 /usr/bin/python
+        - python3 --version
         - python3 -m pip install tox-travis
     - name: "Python 3.7 on Linux"
       os: linux
@@ -18,6 +19,7 @@ jobs:
       before_install:
         - sudo rm /usr/bin/python
         - sudo ln -s /usr/bin/python3 /usr/bin/python
+        - python3 --version
         - python3 -m pip install tox-travis
     - name: "Python 3.8 on Linux"
       os: linux
@@ -27,6 +29,7 @@ jobs:
       before_install:
         - sudo rm /usr/bin/python
         - sudo ln -s /usr/bin/python3 /usr/bin/python
+        - python3 --version
         - python3 -m pip install tox-travis
 
 
