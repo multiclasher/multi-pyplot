@@ -14,6 +14,18 @@ jobs:
         - python3 -m pip install hapiplot --upgrade
         - python3 -m pip install tox-travis
 
+    - name: "Python 3.7 on Linux"
+      os: linux
+      dist: xenial
+      language: python
+      python: 3.7
+      before_install:
+        - sudo rm /usr/bin/python
+        - sudo ln -s /usr/bin/python3 /usr/bin/python
+        - python3 --version
+        - pip install -e . --pre
+        - python3 -m pip install hapiplot --upgrade
+        - python3 -m pip install tox-travis
 
 
 install: pip install --upgrade pip
