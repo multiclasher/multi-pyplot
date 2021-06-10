@@ -8,9 +8,9 @@ jobs:
       language: shell
       before_install:
         - python3 --version
-        - python -m pip install --upgrade pip
-        - pip install -e . --pre
-        - python -m pip install hapiplot --upgrade
+        - python3 -m pip install --upgrade pip
+        - sudo pip install -e . --pre
+        - python3 -m pip install hapiplot --upgrade
         - sudo pip install tox-travis
 
 
