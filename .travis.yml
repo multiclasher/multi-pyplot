@@ -2,17 +2,17 @@ language: python
 jobs:
   include:
 
-    - name: "Python 3.6 on Windows"
+    - name: "Python 3.8 on Windows"
       os: windows
       language: shell
       before_install:
-        - choco install python --version 3.6.5
+        - choco install python --version 3.8.8
         - python --version
         - python -m pip install --upgrade pip
         - pip install -e . --pre
         - python -m pip install hapiplot --upgrade
         - python -m pip install tox-travis
-      env: PATH=/c/Python36:/c/Python36/Scripts:$PATH
+      env: PATH=/c/Python38:/c/Python38/Scripts:$PATH
 
 
 
