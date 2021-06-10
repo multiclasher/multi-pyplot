@@ -68,15 +68,15 @@ endif
 ifeq ($(UNAME_S),Darwin)
 	# Use pythonw instead of python. On OS-X, this prevents "need to install
 	# python as a framework" error. The following finds the path to the binary
-	# of $(PYTHON) and replaces it with pythonw, e.g., 
+	# of $(PYTHON) and replaces it with pythonw, e.g.,
 	# /opt/anaconda3/envs/python3.6/bin/python3.6
-	# -> 
+	# ->
 	# /opt/anaconda3/envs/python3.6/bin/pythonw
 	a=$(shell source activate $(PYTHON); which $(PYTHON))
 	pythonw=$(subst bin/$(PYTHON),bin/pythonw,$(a))
 endif
 
-################################################################################
+###############################################################################
 # Test contents in repository using different python versions
 test:
 	make repository-test-all
@@ -134,7 +134,7 @@ $(CONDA)/envs/$(PYTHON): ./anaconda3
 	bash /tmp/$(CONDA_PKG) -b -p $(CONDA)
 
 /tmp/$(CONDA_PKG):
-	curl https://repo.anaconda.com/miniconda/$(CONDA_PKG) > /tmp/$(CONDA_PKG) 
+	curl https://repo.anaconda.com/miniconda/$(CONDA_PKG) > /tmp/$(CONDA_PKG)
 ################################################################################
 
 ################################################################################
