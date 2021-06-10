@@ -40,6 +40,7 @@ jobs:
       language: shell
       before_install:
         - python --version
+        - sudo python -m pip install --upgrade pip
         - sudo pip install tox-travis
     - name: "Python 3.7 on macOS"
       os: osx
@@ -47,6 +48,7 @@ jobs:
       language: shell
       before_install:
         - python3 --version
+        - sudo python3 -m pip install --upgrade pip
         - sudo pip install tox-travis
     - name: "Python 3.8 on macOS"
       os: osx
@@ -54,6 +56,7 @@ jobs:
       language: shell
       before_install:
         - python3 --version
+        - sudo python3 -m pip install --upgrade pip
         - sudo pip install tox-travis
 
 
@@ -85,6 +88,6 @@ jobs:
         - python -m pip install tox-travis
       env: PATH=/c/Python38:/c/Python38/Scripts:$PATH
 
-install: sudo pip install --upgrade pip
+install: pip install --upgrade pip
 script:
   - tox -e repo-test
