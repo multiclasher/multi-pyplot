@@ -1,0 +1,84 @@
+action: GLOB, msg: packaging
+cwd: /Users/srikar_reddy/Downloads/multi_Hapi/plot-python
+cmd: /Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python setup.py sdist --formats=zip --dist-dir .tox/dist
+running sdist
+running egg_info
+writing requirements to hapiplot.egg-info/requires.txt
+writing hapiplot.egg-info/PKG-INFO
+writing top-level names to hapiplot.egg-info/top_level.txt
+writing dependency_links to hapiplot.egg-info/dependency_links.txt
+reading manifest file 'hapiplot.egg-info/SOURCES.txt'
+writing manifest file 'hapiplot.egg-info/SOURCES.txt'
+running check
+creating hapiplot-0.0.1b4
+creating hapiplot-0.0.1b4/hapiplot
+creating hapiplot-0.0.1b4/hapiplot.egg-info
+creating hapiplot-0.0.1b4/hapiplot/autoplot
+creating hapiplot-0.0.1b4/hapiplot/gallery
+creating hapiplot-0.0.1b4/hapiplot/plot
+creating hapiplot-0.0.1b4/test
+copying files to hapiplot-0.0.1b4...
+copying README.md -> hapiplot-0.0.1b4
+copying setup.py -> hapiplot-0.0.1b4
+copying hapiplot/__init__.py -> hapiplot-0.0.1b4/hapiplot
+copying hapiplot/hapiplot.py -> hapiplot-0.0.1b4/hapiplot
+copying hapiplot.egg-info/PKG-INFO -> hapiplot-0.0.1b4/hapiplot.egg-info
+copying hapiplot.egg-info/SOURCES.txt -> hapiplot-0.0.1b4/hapiplot.egg-info
+copying hapiplot.egg-info/dependency_links.txt -> hapiplot-0.0.1b4/hapiplot.egg-info
+copying hapiplot.egg-info/requires.txt -> hapiplot-0.0.1b4/hapiplot.egg-info
+copying hapiplot.egg-info/top_level.txt -> hapiplot-0.0.1b4/hapiplot.egg-info
+copying hapiplot/autoplot/__init__.py -> hapiplot-0.0.1b4/hapiplot/autoplot
+copying hapiplot/autoplot/autoplot.py -> hapiplot-0.0.1b4/hapiplot/autoplot
+copying hapiplot/autoplot/autoplot_test.py -> hapiplot-0.0.1b4/hapiplot/autoplot
+copying hapiplot/gallery/__init__.py -> hapiplot-0.0.1b4/hapiplot/gallery
+copying hapiplot/gallery/gallery.py -> hapiplot-0.0.1b4/hapiplot/gallery
+copying hapiplot/gallery/gallery_test.py -> hapiplot-0.0.1b4/hapiplot/gallery
+copying hapiplot/plot/__init__.py -> hapiplot-0.0.1b4/hapiplot/plot
+copying hapiplot/plot/datetick.py -> hapiplot-0.0.1b4/hapiplot/plot
+copying hapiplot/plot/datetick_explorer.py -> hapiplot-0.0.1b4/hapiplot/plot
+copying hapiplot/plot/datetick_test.py -> hapiplot-0.0.1b4/hapiplot/plot
+copying hapiplot/plot/heatmap.py -> hapiplot-0.0.1b4/hapiplot/plot
+copying hapiplot/plot/heatmap_test.py -> hapiplot-0.0.1b4/hapiplot/plot
+copying hapiplot/plot/timeseries.py -> hapiplot-0.0.1b4/hapiplot/plot
+copying hapiplot/plot/timeseries_test.py -> hapiplot-0.0.1b4/hapiplot/plot
+copying hapiplot/plot/util.py -> hapiplot-0.0.1b4/hapiplot/plot
+copying test/test_hapiplot.py -> hapiplot-0.0.1b4/test
+copying test/test_hapiplot_visual.py -> hapiplot-0.0.1b4/test
+Writing hapiplot-0.0.1b4/setup.cfg
+creating '.tox/dist/hapiplot-0.0.1b4.zip' and adding 'hapiplot-0.0.1b4' to it
+adding 'hapiplot-0.0.1b4'
+adding 'hapiplot-0.0.1b4/test'
+adding 'hapiplot-0.0.1b4/hapiplot'
+adding 'hapiplot-0.0.1b4/hapiplot.egg-info'
+adding 'hapiplot-0.0.1b4/PKG-INFO'
+adding 'hapiplot-0.0.1b4/README.md'
+adding 'hapiplot-0.0.1b4/setup.py'
+adding 'hapiplot-0.0.1b4/setup.cfg'
+adding 'hapiplot-0.0.1b4/test/test_hapiplot_visual.py'
+adding 'hapiplot-0.0.1b4/test/test_hapiplot.py'
+adding 'hapiplot-0.0.1b4/hapiplot/plot'
+adding 'hapiplot-0.0.1b4/hapiplot/gallery'
+adding 'hapiplot-0.0.1b4/hapiplot/autoplot'
+adding 'hapiplot-0.0.1b4/hapiplot/__init__.py'
+adding 'hapiplot-0.0.1b4/hapiplot/hapiplot.py'
+adding 'hapiplot-0.0.1b4/hapiplot/plot/timeseries_test.py'
+adding 'hapiplot-0.0.1b4/hapiplot/plot/heatmap.py'
+adding 'hapiplot-0.0.1b4/hapiplot/plot/util.py'
+adding 'hapiplot-0.0.1b4/hapiplot/plot/datetick_explorer.py'
+adding 'hapiplot-0.0.1b4/hapiplot/plot/datetick.py'
+adding 'hapiplot-0.0.1b4/hapiplot/plot/__init__.py'
+adding 'hapiplot-0.0.1b4/hapiplot/plot/heatmap_test.py'
+adding 'hapiplot-0.0.1b4/hapiplot/plot/datetick_test.py'
+adding 'hapiplot-0.0.1b4/hapiplot/plot/timeseries.py'
+adding 'hapiplot-0.0.1b4/hapiplot/gallery/__init__.py'
+adding 'hapiplot-0.0.1b4/hapiplot/gallery/gallery.py'
+adding 'hapiplot-0.0.1b4/hapiplot/gallery/gallery_test.py'
+adding 'hapiplot-0.0.1b4/hapiplot/autoplot/autoplot_test.py'
+adding 'hapiplot-0.0.1b4/hapiplot/autoplot/autoplot.py'
+adding 'hapiplot-0.0.1b4/hapiplot/autoplot/__init__.py'
+adding 'hapiplot-0.0.1b4/hapiplot.egg-info/PKG-INFO'
+adding 'hapiplot-0.0.1b4/hapiplot.egg-info/SOURCES.txt'
+adding 'hapiplot-0.0.1b4/hapiplot.egg-info/requires.txt'
+adding 'hapiplot-0.0.1b4/hapiplot.egg-info/top_level.txt'
+adding 'hapiplot-0.0.1b4/hapiplot.egg-info/dependency_links.txt'
+removing 'hapiplot-0.0.1b4' (and everything under it)

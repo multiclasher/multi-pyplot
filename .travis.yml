@@ -13,7 +13,6 @@ jobs:
         - python3 -m pip install hapiplot --upgrade
         - python3 -m pip install tox-travis
 
-
 install: pip install --upgrade pip
 script:
   - tox -e repo-test
