@@ -1,4 +1,2 @@
 matplotlib
 hapiclient>0.1.7
-deepdiff<3.3.0
-pytest<5.0.0
