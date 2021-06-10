@@ -9,8 +9,8 @@ jobs:
         - choco install python --version 3.6.5
         - python --version
         - python -m pip install --upgrade pip
-        - sudo pip install -e . --pre
-        - python3 -m pip install hapiplot --upgrade
+        - pip install -e . --pre
+        - python -m pip install hapiplot --upgrade
         - python -m pip install tox-travis
       env: PATH=/c/Python36:/c/Python36/Scripts:$PATH
 
