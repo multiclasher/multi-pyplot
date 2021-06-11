@@ -10,7 +10,10 @@ jobs:
         - python --version
         - python -m pip install --upgrade pip
         - python -m pip install tox-travis
-      env: PATH=/c/Python38:/c/Python38/Scripts:$PATH
+      env:
+        - PATH=/c/Python38:/c/Python38/Scripts:$PATH
+        - WINDIR=/c/Windows
+
 
 install: pip install --upgrade pip
 script:
