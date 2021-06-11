@@ -2,17 +2,16 @@ language: python
 jobs:
   include:
 
-    - name: "Python 3.8 on Windows"
-      os: windows
+    - name: "Python 3.6 on macOS"
+      os: osx
+      osx_image: xcode9.2
       language: shell
       before_install:
-        - choco install python --version 3.8.8 -y
-        - python --version
-        - python -m pip install --upgrade pip
-        - pip install -e . --pre
-        - python -m pip install hapiplot --upgrade
-        - python -m pip install tox-travis
-      env: PATH=/c/Python38:/c/Python38/Scripts:$PATH
+        - python3 --version
+        - python3 -m pip install --upgrade pip
+        - sudo pip install -e . --pre
+        - python3 -m pip install hapiplot --upgrade
+        - sudo pip install tox-travis
 
 
 
