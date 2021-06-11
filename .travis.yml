@@ -4,8 +4,7 @@ jobs:
 
     - name: "Python 3.6 on macOS"
       os: osx
-      python: "3.6"
-      osx_image: xcode10
+      python: 3.6
       language: shell
       before_install:
         - python3 --version
