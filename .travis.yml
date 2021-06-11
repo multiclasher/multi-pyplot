@@ -10,6 +10,7 @@ jobs:
         - python -m pip install --upgrade pip
         - python -m pip install tox-travis
       env: PATH=/c/Python36:/c/Python36/Scripts:$PATH
+
     - name: "Python 3.7 on Windows"
       os: windows
       language: shell
