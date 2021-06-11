@@ -76,7 +76,7 @@ ifeq ($(UNAME_S),Darwin)
 	pythonw=$(subst bin/$(PYTHON),bin/pythonw,$(a))
 endif
 
-###############################################################################
+#################################################################################
 # Test contents in repository using different python versions
 test:
 	make repository-test-all
