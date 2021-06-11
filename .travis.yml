@@ -1,7 +1,6 @@
 language: python
 jobs:
   include:
-
     - name: "Python 3.8 on Windows"
       os: windows
       language: shell
@@ -14,4 +13,4 @@ jobs:
 
 install: pip install --upgrade pip
 script:
-  - tox -e repo-test-windows
+  - tox -e repo-testwindows
